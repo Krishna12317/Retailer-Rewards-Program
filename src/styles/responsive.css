@@ -1,0 +1,67 @@
+/* Core Responsive Adjustments */
+
+@media (max-width: 1024px) {
+  .app-container {
+    padding: var(--space-lg) var(--space-md);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-3 {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+
+  .flex-between {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-md);
+  }
+
+  .flex-between > * {
+    width: 100%;
+  }
+
+  /* Responsive Search and Sort bar on Mobile */
+  .search-sort-bar {
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  .search-sort-bar > * {
+    width: 100% !important;
+  }
+
+  /* Table responsive design */
+  .data-table th, .data-table td {
+    padding: var(--space-sm) var(--space-md);
+    font-size: 0.85rem;
+  }
+
+  /* Dashboard Header adjustments */
+  .dashboard-header {
+    text-align: center;
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: var(--space-md);
+    margin-bottom: var(--space-lg);
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 87.5%; /* Compress sizing slightly on tiny displays */
+  }
+
+  .app-container {
+    padding: var(--space-md) var(--space-sm);
+  }
+  
+  .card {
+    padding: var(--space-md);
+  }
+
+  /* Month columns inside the table might need to wrap or show scroll indicators */
+  .table-container {
+    border-radius: var(--radius-md);
+  }
+}

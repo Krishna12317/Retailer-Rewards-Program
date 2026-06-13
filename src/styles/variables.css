@@ -1,0 +1,48 @@
+:root {
+  /* Main Brand and Accent Colors */
+  --color-primary: #1e293b;       /* Dark slate for main headings */
+  --color-primary-light: #475569; /* Slate for subheadings */
+  --color-accent: #2563eb;        /* Standard blue for primary buttons and accents */
+  --color-accent-hover: #1d4ed8;  /* Darker blue for button hover */
+  --color-accent-light: #93c5fd;  /* Light blue for active focus borders */
+  
+  /* Status Colors */
+  --color-success: #16a34a;       /* Green for points and success badges */
+  --color-success-bg: #f0fdf4;    /* Light green background for alerts */
+  --color-warning: #ea580c;       /* Orange for warnings */
+  --color-warning-bg: #fff7ed;    /* Light orange background */
+  --color-error: #dc2626;         /* Red for errors */
+  --color-error-bg: #fef2f2;      /* Light red background */
+  
+  /* Neutral scale */
+  --color-bg-main: #f8fafc;       /* Light gray body background */
+  --color-bg-card: #ffffff;       /* White background for cards and modals */
+  --color-border: #cbd5e1;        /* Divider border lines */
+  --color-text-main: #0f172a;     /* Dark text for maximum readability */
+  --color-text-muted: #64748b;    /* Gray text for labels and secondary text */
+  --color-text-white: #ffffff;    /* White text */
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-xxl: 3rem;
+
+  /* Typography */
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-family-mono: 'JetBrains Mono', Courier, monospace;
+  
+  /* Border Radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 350ms ease;
+}
